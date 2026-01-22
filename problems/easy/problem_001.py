@@ -63,6 +63,15 @@ def run_tests():
     # Test case 5: Decimal numbers
     assert calculate(5.5, 2.5, '+') == 8.0, "Decimal addition test failed"
     
+    # Test case 6: Subtraction resulting in negative number
+    assert calculate(3, 5, '-') == -2, "Subtraction resulting in negative test failed"
+    
+    # Test case 7: Addition with zero
+    assert calculate(0, 0, '+') == 0, "Addition with zeros test failed"
+    
+    # Test case 8: Subtraction with negative result
+    assert calculate(2, 7, '-') == -5, "Subtraction with negative result test failed"
+    
     print("✓ All test cases passed!")
 
 
