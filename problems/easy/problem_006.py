@@ -11,6 +11,6 @@ This is a practical problem. Read the code and comments to understand the goal.
 Difficulty: Easy
 """
 
-celsius = 20
-fahrenheit = celsius * (9/5)
+fahrenheit = 20 
+celsius = (fahrenheit* (9/5))
 print(fahrenheit)
