@@ -13,5 +13,5 @@ Difficulty: Easy
 
 text = "ab"
 times = "3"
-result = text * times
+result = text * int(times)
 print(result)
