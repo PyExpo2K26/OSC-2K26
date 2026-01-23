@@ -5,9 +5,9 @@ Difficulty: Medium
 """
 
  
-def run():
+def run(x,y):
     x = 10
-    y = 0
+    y = 10
     return x / y
 
-run()
+run(10,1)
