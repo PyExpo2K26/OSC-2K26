@@ -11,13 +11,13 @@ This is a practical problem. Read the code and comments to understand the goal.
 Difficulty: Easy
 """
 
-def calculate(a, b, op):
+def calcul(a, b, op):
     if op == '+':
         return a + b
-    elif op == '-'
+    elif op == '-':
         return a - b
     else:
         return "Unknown operation"
 
-result = calculate(5, 3, '+')
+result = calcul(5, 3, '+')
 print(result)
