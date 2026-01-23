@@ -10,8 +10,7 @@ This is a practical problem. Read the code and comments to understand the goal.
 
 Difficulty: Easy
 """
-
 price = 100
 discount_percent = 10
-discounted_price = price * (1 - discount_percent) # Should be discount_percent / 100
+discounted_price = price * (1 - discount_percent / 100)
 print(discounted_price)
