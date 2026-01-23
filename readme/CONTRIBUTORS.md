@@ -4,5 +4,5 @@ Please add your details below to register for the event.
 
 | Name | Roll Number |
 |------|-------------|
-| Example Student | 123456 |
+| Bakya Sujitha | 25UIT112 |
 |      |             |
