@@ -12,4 +12,4 @@ def convert_budget(value):
      
     return value + factor
 
-print(convert_budget(100))
+print(int(convert_budget(100)))
