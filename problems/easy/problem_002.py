@@ -10,7 +10,6 @@ This is a practical problem. Read the code and comments to understand the goal.
 
 Difficulty: Easy
 """
-
 name = "Alice"
 message = f"Hello, {name}"
-print("Hello, {name}")
+print(message)
