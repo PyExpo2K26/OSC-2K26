@@ -8,7 +8,7 @@ def convert_budget(value):
     
     factor = 0.5
     
-    return value // factor 
+    return value + factor 
      
     return value + factor
 
