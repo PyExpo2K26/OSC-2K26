@@ -5,9 +5,12 @@ Difficulty: Medium
 """
 
 # Generic logic for Currency Validator
-def run():
-    x = 10
-    y = 0
-    return x / y
+try:
+    def run():
+        x = 10
+        y = 0
+        return x / y
 
-run()
+    run()
+except ZeroDivisionError:
+    print("ZeroDivisionError")
