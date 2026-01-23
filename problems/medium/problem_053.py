@@ -5,9 +5,12 @@ Difficulty: Medium
 """
 
  
-def run(x,y):
+def run():
     x = 10
-    y = 10
-    return x / y
+    y = 0
+    if(y==0):
+        print("cannot be divided by 0")
+    else:
+        return x / y
 
-run(10,1)
+run()
