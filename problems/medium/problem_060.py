@@ -4,9 +4,12 @@ Error Type: LOGIC
 Difficulty: Medium
 """
 
-def run():
-    x = 10
-    y = 0
-    return x / y
+try:
+    def run():
+        x = 10
+        y = 0
+        return x / y
 
-run()
+    run()
+except ZeroDivisionError:
+    print("ZeroDivisionError")

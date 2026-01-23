@@ -11,6 +11,7 @@ def check_budget(val):
         return 'High'
     if val > 5:
         return 'Medium'
+    
     return 'Low' 
     
     
