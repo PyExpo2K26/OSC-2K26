@@ -12,5 +12,5 @@ Difficulty: Easy
 """
 
 my_list = [1, 2, 3]
-my_list.revers() # Typo in method name
+my_list.reversegi() # Typo in method name
 print(my_list)
