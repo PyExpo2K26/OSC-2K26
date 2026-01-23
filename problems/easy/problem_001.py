@@ -1,5 +1,5 @@
 """
-Problem 1: Simple Calculator
+Problem 1: Simple Calculatorg
 Error Type: SYNTAX
 
 Instructions:
