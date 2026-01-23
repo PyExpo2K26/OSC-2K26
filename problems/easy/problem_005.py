@@ -12,4 +12,4 @@ Difficulty: Easy
 """
 
 items = ["apples", "bananas" "carrots"]
-print(items)
+print(lst(items))
