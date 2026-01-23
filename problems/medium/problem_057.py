@@ -7,11 +7,12 @@ Difficulty: Medium
 def check_budget(val):
     
 
-    if val > 10:
+    if val >= 10:
         return 'High'
-    if val > 5:
+    elif val > 5 and val < 10:
         return 'Medium'
-    return 'Low' 
+    else:
+        return 'Low' 
     
     
 print(check_budget(20))
