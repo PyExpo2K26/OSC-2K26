@@ -11,7 +11,7 @@ This is a practical problem. Read the code and comments to understand the goal.
 Difficulty: Easy
 """
 
-def calcul(a, b, op):
+def calcula(a, b, op):
     if op == '+':
         return a + b
     elif op == '-':
@@ -19,5 +19,5 @@ def calcul(a, b, op):
     else:
         return "Unknown operation"
 
-result = calcul(5, 3, '+')
+result = calcula(5, 3, '+')
 print(result)
