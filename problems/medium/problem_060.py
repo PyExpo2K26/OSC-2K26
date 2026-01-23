@@ -7,6 +7,9 @@ Difficulty: Medium
 def run():
     x = 10
     y = 0
-    return x / y
+    try:
+        return x / y
+    except ZeroDivisionError:
+        print("Cannot divide by 0")
 
 run()
