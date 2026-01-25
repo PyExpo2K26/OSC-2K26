@@ -10,6 +10,5 @@ def convert_budget(value):
     
     return value // factor 
      
-    return value + factor
 
 print(convert_budget(100))
