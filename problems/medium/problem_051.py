@@ -5,10 +5,19 @@ Difficulty: Medium
 """
 
 def calculate_budget(items):
+    """
+    calculate_budget returns the total of the array passed 
+
+    paramater calculate_budget(items) -> type of items : array
+
+    """
     total = 0
    
     for item in items:
-        total = item 
+        total  += item 
     return total
 
-print(calculate_budget([10, 20, 30]))
+#test cases :
+assert calculate_budget([10,20,30])==60
+assert calculate_budget([])==0
+assert calculate_budget([-10,20])==10

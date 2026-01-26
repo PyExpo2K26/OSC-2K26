@@ -13,4 +13,6 @@ Difficulty: Easy
 
 length = 10
 width = 5
-print(length*width)
+area = length * width
+print(area)
+
