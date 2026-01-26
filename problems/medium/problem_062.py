@@ -6,7 +6,7 @@ Difficulty: Medium
 
 def process_grade_data(data):
     results = []
-    for i in range(len(data) + 1):
+    for i in range(len(data)):
         if i < len(data):
              results.append(data[i] * 2)
         else:
