@@ -12,6 +12,7 @@ Difficulty: Easy
 """
 
 def calculate(a, b, op):
+    
     if op == '+':
         return a + b
     elif op == '-':
