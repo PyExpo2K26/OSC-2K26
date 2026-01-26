@@ -5,7 +5,7 @@ Difficulty: Medium
 """
 
 def update_grade(current_val, input_val):
-    return current_val + input_val
+    return current_val + int(input_val)
 
 curr = 100
 inp = "50"
