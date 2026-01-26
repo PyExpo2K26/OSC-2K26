@@ -7,7 +7,7 @@ Difficulty: Medium
 # Generic logic for Temperature Validator
 def run():
     x = 10
-    y = 0
+    y = 2
     return x / y
 
 run()
