@@ -8,9 +8,10 @@ def check_grade(val):
     #    return True
 
     if val > 10:
-        return 'High'
-    if val > 5:
-        return 'Medium'
-    return 'Low' 
+        return "High"
+    elif val > 5:
+        return "Medium"
+    else:
+        return "Low" 
     
 print(check_grade(20))
