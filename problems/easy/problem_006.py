@@ -12,5 +12,5 @@ Difficulty: Easy
 """
 
 celsius = 20
-fahrenheit = celsius * (9/5) + 3
+fahrenheit = celsius * (9/5) + 32
 print(fahrenheit)
