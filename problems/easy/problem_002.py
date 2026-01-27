@@ -13,4 +13,5 @@ Difficulty: Easy
 
 name = "Alice"
 message = f"Hello, {name}"
-print("Hello, {name}")
+print(message)
+# or: print(f"Hello, {name}")
