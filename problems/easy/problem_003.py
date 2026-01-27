@@ -10,7 +10,6 @@ This is a practical problem. Read the code and comments to understand the goal.
 
 Difficulty: Easy
 """
-
 length = 10
 width = 5
 area = length * width
