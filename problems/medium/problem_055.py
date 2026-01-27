@@ -12,7 +12,6 @@ def process_budget_data(data):
         if i < len(data):
              results.append(data[i] * 2)
         else:
-             
              results.append(data[i])
     return results
 
