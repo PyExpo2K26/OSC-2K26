@@ -12,6 +12,6 @@ Difficulty: Easy
 """
 
 length = 10
-width = 5
-area = length * width
+breadth = 5
+area = length * breadth
 print(area)
