@@ -7,9 +7,7 @@ Difficulty: Medium
 def convert_budget(value):
     
     factor = 0.5
-    
-    return value // factor 
      
-    return value + factor
+    return value + factor,value // factor 
 
 print(convert_budget(100))
